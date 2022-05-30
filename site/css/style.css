@@ -1,0 +1,153 @@
+@charset"UTF-8"; 
+/*font-family: 'raleway' , sans-serif; */ 
+
+body, html { 
+    padding: 0; 
+    margin: 0;  
+}
+ body { 
+     font-family: 'raleway', sans-serif;
+ } 
+ a, a:hover{  
+     text-decoration: none;
+ }  
+
+.container-fluid { 
+  padding: 0;      
+} 
+.separator { 
+height: 3px; 
+weight: 5%; 
+border: none; 
+box-shadow: none; 
+background-color: #349BDB;
+}
+/* header */   
+.header{ 
+    background-color: #880707;
+    height: 70px; 
+    line-height: 70px;
+}
+
+.logo {  
+color: #ffffff;
+text-transform: uppercase; 
+font-weight: bold;
+letter-spacing: 1px; 
+font: left; 
+}  
+
+.menu { 
+float: right; 
+} 
+ 
+.menu a {
+color: #ffffff; 
+marggin-right: 20px;
+}  
+ 
+.menu a:hover { 
+   color:#344556; 
+} 
+
+/* bannier */  
+.banner { 
+width: 100%;
+max-width: 100%;
+}  
+
+ban { 
+width: 100%;
+max-width: 100% 
+position: relative;
+} 
+.ban img { 
+width: 100%;
+max-width: 100%
+}  
+.inner-banner { 
+position: absolute; 
+top 40;
+width: 100%; 
+text-align: center;
+} 
+.inner-banner h1 { 
+color:#2f0361; 
+text-shadow: 1px 1px 20px #000000; 
+}
+.inner-banner .btn-custom   {
+background-color: #3498D8; 
+color:#ffffff;    
+} 
+.inner-banner .btn-custom:hover { 
+background-color:#abb3bc;
+}
+/* About */ 
+#about { 
+text-align: center; 
+padding-top: 10%;
+} 
+.about article { 
+margin-top: 10%; 
+margin-bottom: 10%;
+}
+
+.about article h2 { 
+text-align: center;
+}
+/* portfolio */ 
+.portfolio { 
+background-color: #eeeeee;
+height: 300px;
+text-align: center;
+} 
+ 
+
+
+.portfolio .item-folio { 
+ height: 280%;   
+ background-color:#3498D8;
+}
+/* contact */ 
+.footer { 
+background-color: #5a5f63; 
+height: 600; 
+}  
+*footer p { 
+color: #ffffff; 
+text-align: center; 
+padding-top 15px; 
+}
+#contact { 
+color: #ffffff; 
+text-align: center;  
+} 
+
+.formulareContact{ 
+width: 500px; 
+display: block;  
+margin: 0 auto;
+}  
+input { 
+margin-bottom: 20px;
+
+input[type=text] {  
+height: 50px; 
+width: 500; 
+border:none; 
+}
+
+input[type=email] {  
+height: 50px; 
+width: 500; 
+ border:none; 
+}
+
+textarea { 
+width: 500; 
+height: 200; 
+}
+
+
+
+
